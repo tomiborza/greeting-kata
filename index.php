@@ -1,3 +1,6 @@
 <?php
-	echo "Good morning";
+function greeting(var name){
+	echo "Good morning "+name+" ";
+}
+
 ?>
