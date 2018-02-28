@@ -3,6 +3,9 @@ echo "<center>";
 function keret(){
 	for($i=0;$i<79;$i++)echo "#";echo "</br>";
 }
+function keret(){
+	for($i=0;$i<79;$i++)echo "~";echo "</br>";
+}
 function greeting($name){
 	$mf="Happy easter my friend";
 	$nm="Nagyon nagyon boldog szuletesnapot kivanok sok sok szeretettel, kedves"+$name+"";
@@ -17,16 +20,16 @@ function greeting($name){
 		$l=$l+$com;
 	}
 	keret();
-	keret();
+	keret1();
 	for($i=0;$i<$l;$i++)if($i==0||$i==79)echo "##";echo "</br>";
 
 	if($name==NULL){
-		echo "##   "+$mf+"   ##";
+		echo "#~   "+$mf+"   ~#";
 	}else{
-		echo "##   "+$mn+"   ##";
+		echo "#~   "+$mn+"   ~#";
 	}
 	for($i=0;$i<$l;$i++)if($i==0||$i==79)echo "##";echo "</br>";
-	keret();
+	keret1();
 	keret();
 	
 }
