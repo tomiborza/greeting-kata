@@ -5,7 +5,7 @@ function keret(){
 }
 function greeting($name){
 	$mf="Happy easter my friend";
-	$nm="Happy easter "+name+"";
+	$nm="Nagyon nagyon boldog szuletesnapot kivanok sok sok szeretettel, kedves"+$name+"";
 	$l=79
 	if(strlen($mf)>80){
 		$com=strlen($mf)-80;
