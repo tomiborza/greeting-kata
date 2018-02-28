@@ -1,4 +1,5 @@
 <?php
+echo "<center>";
 function greeting(var name){
 	for(i=0;i<79;i++)echo "*";echo "</br>";
 	if(name==NULL){
@@ -9,5 +10,5 @@ function greeting(var name){
 	for(i=0;i<79;i++)echo "*";echo "</br>";
 
 }
-
+echo "</center>";
 ?>
